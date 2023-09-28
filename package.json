@@ -1,7 +1,7 @@
 {
-  "name": "Calculator App",
+  "name": "Calculator app",
   "version": "1.0.0",
-  "description": "Backoffice for YourFetish.shop",
+  "description": "An calculator app",
   "main": "index.js",
   "scripts": {
     "start": "gulp build && php -S localhost:8888",
@@ -10,4 +10,34 @@
     "compile:static": "gulp build",
     "server": "php -S localhost:8888",
     "test": "echo \"Error: no test specified\" && exit 1"
-  }}
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.4.3",
+    "browser-sync": "^2.26.3",
+    "codyhouse-framework": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-postcss": "^8.0.0",
+    "gulp-purgecss": "^3.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sass-glob": "git+https://github.com/CodyHouse/gulp-sass-glob",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.37.5",
+    "sass-embedded": "^1.0.0-beta.4"
+  },
+  "homepage": "https://codyhouse.co",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.gardenframe.com/gardenframe/yourfetishshop-enterprise"
+  },
+  "authors": [
+    "Rax <hoodz17@protonmail.com>"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "codyframe": "^4.0.1"
+  }
+}
