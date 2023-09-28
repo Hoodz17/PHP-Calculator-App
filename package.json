@@ -1,0 +1,13 @@
+{
+  "name": "yourfetishshop-backoffice",
+  "version": "1.0.0",
+  "description": "Backoffice for YourFetish.shop",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp build && php -S localhost:8888",
+    "gulp": "gulp",
+    "build": "gulp build",
+    "compile:static": "gulp build",
+    "server": "php -S localhost:8888",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }}
